@@ -3,7 +3,7 @@ class helloworld::motd {
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
-    content => "hello, world!\n",
+    content => "Hello, world! Welcome to Puppet Enterprise!\n",
   }
 }
 
